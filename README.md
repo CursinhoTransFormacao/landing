@@ -2,8 +2,10 @@
 Nesse repositório será registrado o desenvolvimento da _landingpage_ para dar o suporte inicial ao projeto e permitir a divulgação do trabalho realizado pelo *coletivo TransFormação* acerca do cursinho popular homônimo.
 
 # Tarefas (pt. I)
-Definir <strong>user stories</strong> (<strong>alunxs, colaboradorxs e doadorxs</strong>);<br>
-Destrinchar o briefing/pauta da reunião (arquivo Google Drive);
+Postar layout;
+Vetorizar logotipo do cursinho;
+Definir seções de desenvolvimento (topo, jumbotron e assim por diante);
+Compartilhar o briefing para desenvolvimento do site.
 
 #Sobre o Cursinho Popular TransFormação
 
