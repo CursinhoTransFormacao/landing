@@ -1,16 +1,16 @@
 # Landing
 Nesse repositório será registrado o desenvolvimento da _landingpage_ para dar o suporte inicial ao projeto e permitir a divulgação do trabalho realizado pelo *coletivo TransFormação* acerca do cursinho popular homônimo.
 
-# Tarefas (pt. I)
-Postar layout;<br>
-Vetorizar logotipo do cursinho;<br>
-Definir seções de desenvolvimento (topo, jumbotron e assim por diante);<br>
-Compartilhar o briefing para desenvolvimento do site.<br>
+# Material
+Briefing (aberto para comentários)
+https://docs.google.com/document/d/1mdpj7h3pmtt9TRYUogGyuKRCPEUSP9IN_9srDP4h-pU/edit
+Layout
+https://drive.google.com/file/d/0BxYN2H5xYHu-LW9vQWYtSW5yZE0/view
 
 #Sobre o Cursinho Popular TransFormação
 
   <strong>Quem somos?</strong>
-  _Cursinho Transformação é um cursinho popular e gratuito de educação empoderadora que também prepara para o ingresso no ensino superior com foco no ENEM._
+  _Cursinho Transformação é um cursinho popular e gratuito de educação empoderadora que prepara alunes e tem foco no ENEM._
   
   <strong>Quem pode participar?</strong>
   _As aulas são direcionadas para mulheres transexuais, homens transexuais, travestis e pessoas não-binárias._
