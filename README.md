@@ -2,9 +2,9 @@
 Nesse repositório será registrado o desenvolvimento da _landingpage_ para dar o suporte inicial ao projeto e permitir a divulgação do trabalho realizado pelo *coletivo TransFormação* acerca do cursinho popular homônimo.
 
 # Material
-Briefing (aberto para comentários)
-https://docs.google.com/document/d/1mdpj7h3pmtt9TRYUogGyuKRCPEUSP9IN_9srDP4h-pU/edit
-Layout
+Briefing (aberto para comentários)<br>
+https://docs.google.com/document/d/1mdpj7h3pmtt9TRYUogGyuKRCPEUSP9IN_9srDP4h-pU<br>
+Layout<br>
 https://drive.google.com/file/d/0BxYN2H5xYHu-LW9vQWYtSW5yZE0/view
 
 #Sobre o Cursinho Popular TransFormação
