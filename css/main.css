@@ -1,6 +1,18 @@
 /*
 Cores que serão usadas no site
-Azul color: #87CEFA; | Rosa color: #ffc0cb; | Preto color: #27282b; | Branco color: #f9f9f9; | Branco color: #ffffff 
+Azul color: #87CEFA; - COR BASE - USADO EM TODO O LAYOUT
+[ANIMAÇÕES] - USAR SOMENTE EM ACTIVE/FOCUS/HOVER
+[TONS CLAROS] Azul color-1: #96D4FB; | Azul color-2: #A5DAFB; | Azul color-3: #B4E0FC; |
+[TONS ESCUROS] Azul color+1: #59BBF8; | Azul color+2: #2BA8F6; | Azul color+3: #0A92E7;
+
+Rosa color: #FFC0CB;  - COR BASE - USADO EM TODO O LAYOUT
+[ANIMAÇÕES] - USAR SOMENTE EM ACTIVE/FOCUS/HOVER
+[TONS CLAROS] Rosa color-1: #FFC8D2; | Rosa color-2: #FFD0D8; | Rosa color-3: #FFD8DF;
+[TONS ESCUROS] Rosa color+1: #FF889D; | Rosa color+2: #FF506F; | Rosa color+3: #FF1841;
+
+Preto color: #27282b; |
+Branco color: #F9F9F9; |
+Branco color: #FFFFFF
 
 Fontes usadas no site
 font-family: 'PT Sans', sans-serif;
@@ -14,4 +26,37 @@ body {
 
 h1{
 	color: #87CEFA;
+}
+
+/**********************************
+* QUINTA SEÇÃO
+**********************************/
+footer{
+	color:#FFFFFF;
+	background-color:#27282A;
+	padding: 2.5rem 3%;
+}
+footer p a span{
+	margin-right: 2.5rem;
+}
+footer .rosa-bg{
+	color:#FFC0CB;
+}
+footer a{
+	color:#FFFFFF;
+}
+footer a:active,
+footer a:focus,
+footer a:hover{
+	color:#FFFFFF;
+	text-decoration: none;
+}
+
+footer a:hover span i.rosa-bg{
+	color:#FF889D;
+	transition: color 0.3s ease;
+	-webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+	-ms-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
 }
