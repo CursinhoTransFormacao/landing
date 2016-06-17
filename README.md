@@ -7,6 +7,13 @@ https://docs.google.com/document/d/1mdpj7h3pmtt9TRYUogGyuKRCPEUSP9IN_9srDP4h-pU<
 Layout<br>
 https://drive.google.com/file/d/0BxYN2H5xYHu-LW9vQWYtSW5yZE0/view
 
+#100DaysOfCode
+Desenvolverei esse projeto dentro do tema proposto no artigo  do FreeCodeCamp<br> https://medium.freecodecamp.com/join-the-100daysofcode-556ddb4579e4#.kpggx3fa3
+<br>
+*Dia 1*<br>
+Inserção dos elementos textuais<br>
+Criação do arquivo CSS próprio<br>
+
 #Sobre o Cursinho Popular TransFormação
 
   <strong>Quem somos?</strong>
