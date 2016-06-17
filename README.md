@@ -5,7 +5,7 @@ Nesse repositório será registrado o desenvolvimento da _landingpage_ para dar 
 Briefing (aberto para comentários)<br>
 https://docs.google.com/document/d/1mdpj7h3pmtt9TRYUogGyuKRCPEUSP9IN_9srDP4h-pU<br>
 Layout<br>
-https://drive.google.com/file/d/0BxYN2H5xYHu-LW9vQWYtSW5yZE0/view
+https://drive.google.com/file/d/0BxYN2H5xYHu-LW9vQWYtSW5yZE0/view<br>
 *Preciso desenvolver as imagens que serão usadas no projeto e estão no layout*
 
 #100DaysOfCode
