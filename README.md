@@ -6,6 +6,7 @@ Briefing (aberto para comentários)<br>
 https://docs.google.com/document/d/1mdpj7h3pmtt9TRYUogGyuKRCPEUSP9IN_9srDP4h-pU<br>
 Layout<br>
 https://drive.google.com/file/d/0BxYN2H5xYHu-LW9vQWYtSW5yZE0/view
+*Preciso desenvolver as imagens que serão usadas no projeto e estão no layout*
 
 #100DaysOfCode
 Desenvolverei esse projeto dentro do tema proposto no artigo  do FreeCodeCamp<br> https://medium.freecodecamp.com/join-the-100daysofcode-556ddb4579e4#.kpggx3fa3
