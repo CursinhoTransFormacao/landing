@@ -1,0 +1,17 @@
+/*
+Cores que serão usadas no site
+Azul color: #87CEFA; | Rosa color: #ffc0cb; | Preto color: #27282b; | Branco color: #f9f9f9; | Branco color: #ffffff 
+
+Fontes usadas no site
+font-family: 'PT Sans', sans-serif;
+font-family: 'PT Sans Caption', sans-serif;
+*/
+
+body {
+	font-family: 'PT Sans', sans-serif;
+	color: #27282b;
+}
+
+h1{
+	color: #87CEFA;
+}
