@@ -1,6 +1,16 @@
 /*
 Cores que serão usadas no site
-Azul color: #87CEFA; | Rosa color: #ffc0cb; | Preto color: #27282b; | Branco color: #f9f9f9; | Branco color: #ffffff 
+Azul color: #87CEFA; - COR BASE - USADO EM TODO O LAYOUT
+[ANIMAÇÕES] - USAR SOMENTE EM ACTIVE/FOCUS/HOVER
+[TONS CLAROS] Azul color-1: #96D4FB; | Azul color-2: #A5DAFB; | Azul color-3: #B4E0FC; |
+[TONS ESCUROS] Azul color+1: #59BBF8; | Azul color+2: #2BA8F6; | Azul color+3: #0A92E7;
+
+Rosa color: #FFC0CB;  - COR BASE - USADO EM TODO O LAYOUT
+[ANIMAÇÕES] - USAR SOMENTE EM ACTIVE/FOCUS/HOVER
+[TONS CLAROS] Rosa color-1: #FFC8D2; | Rosa color-2: #FFD0D8; | Rosa color-3: #FFD8DF;
+[TONS ESCUROS] Rosa color+1: #FF889D; | Rosa color+2: #FF506F; | Rosa color+3: #FF1841;
+
+Preto color: #27282b; | Branco color: #F9F9F9; | Branco color: #FFFFFF;
 
 Fontes usadas no site
 font-family: 'PT Sans', sans-serif;
@@ -15,7 +25,6 @@ body {
 h1{
 	color: #87CEFA;
 }
-
 /**********************************
  * MENU @arbolitoloco
  **********************************/
@@ -24,7 +33,6 @@ nav {
 	font-size: 22px;
 	height: 150px;
 }
-
 nav ul {
 	list-style: none;
 	margin: 10px;
@@ -33,35 +41,103 @@ nav ul {
 	height: 100px;
 	text-align: center;
 }
-
 nav li {
 	margin: 40px 50px 40px 50px;
 	display: inline-block;
 	float: left;
 }
-
 .navbar-header {
 	padding: 20px 10px 10px 10px;
 }
-
 .navbar-fixed-top {
 	border-top: 10px solid #87CEFA;
 	border-bottom: 10px solid #ffc0cb;
 }
-
 #navbar-container {
 	margin: 0 50px 0 50px;
 }
 /**********************************
- * QUINTA SEÇÃO @brunoluizgr
- **********************************/
-footer{
- 	color:#FFFFFF;
-	background-color:#27282A;
+* QUARTA SEÇÃO - FALE CONOSCO @brunoluizgr
+**********************************/
+#fale-conosco{
+	border-top: 10px solid #FFC0CB;
 	padding: 2.5rem 3%;
 }
-footer p a span{
-	margin-right: 2.5rem;
+#fale-conosco .row h4{
+	font-size: 2.5rem;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bolder;
+}
+#fale-conosco .row p{
+	margin-top: 2.5rem;
+	font-size: 1.4rem;
+}
+#fale-conosco .row input,
+#fale-conosco .row textarea{
+	color: #27282b;
+	background-color: #F9F9F9;
+	border-radius: 0;
+	border: 0;
+	border-left: 8px solid #FFC0CB;
+	resize: none;
+	overflow-y: scroll;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-ms-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+}
+#fale-conosco ::-webkit-input-placeholder{
+	color: #27282b;
+	font-weight: normal;
+	font-size: 1.4rem;
+}
+#fale-conosco :-moz-placeholder{
+	color: #27282b;
+	font-weight: normal;
+	font-size: 1.4rem;
+}
+#fale-conosco ::-moz-placeholder{
+	color: #27282b;
+	font-weight: normal;
+	font-size: 1.4rem;
+}
+#fale-conosco :-ms-input-placeholder{
+	color: #27282b;
+	font-weight: normal;
+	font-size: 1.4rem;
+}
+#fale-conosco .row .btn-enviar{
+	color: #FFFFFF;
+	background-color: #FFC0CB;
+	font-weight: bolder;
+	font-size: 1.6rem;
+	border-radius: 0;
+}
+#fale-conosco .row .btn-enviar:active{
+	background-color: #FF506F;
+	transition: background-color 0.3s ease;
+	-webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+	-ms-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+}
+#fale-conosco .row .btn-enviar:focus,
+#fale-conosco .row .btn-enviar:hover{
+	background-color: #FF889D;
+	transition: background-color 0.3s ease;
+	-webkit-transition: background-color 0.3s ease;
+	-moz-transition: background-color 0.3s ease;
+	-ms-transition: background-color 0.3s ease;
+	-o-transition: background-color 0.3s ease;
+}
+/**********************************
+* QUINTA SEÇÃO - RODAPÉ @brunoluizgr
+**********************************/
+footer{
+	color:#FFFFFF;
+	background-color:#27282A;
+	padding: 2.5rem 3%;
 }
 footer .rosa-bg{
 	color:#FFC0CB;
@@ -75,12 +151,90 @@ footer a:hover{
 	color:#FFFFFF;
 	text-decoration: none;
 }
-
 footer a:hover span i.rosa-bg{
 	color:#FF889D;
 	transition: color 0.3s ease;
 	-webkit-transition: color 0.3s ease;
-	-moz-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
 	-ms-transition: color 0.3s ease;
-	-o-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+}
+footer p a span:nth-child(2){
+	line-height: 3rem;
+}
+/**********************************
+* MEDIA QUERIES AJUSTES - Retirado de https://scotch.io/tutorials/default-sizes-for-twitter-bootstraps-media-queries @brunoluizgr
+**********************************/
+/*==========  Método Non-Mobile   ==========*/
+/* Mega-Large-Devices++ */
+@media only screen and (min-width : 1201px) {
+	#fale-conosco{
+		height: 100vh;
+	}
+	#fale-conosco .row{
+		padding-top: 10vh;
+	}
+	#fale-conosco .row textarea{
+		height: 200px;
+	}
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	#fale-conosco{
+		height: 100vh;
+	}
+	#fale-conosco .row{
+		padding-top: 10vh;
+	}
+	#fale-conosco .row textarea{
+		height: 180px;
+	}
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	#fale-conosco{
+		height: 100vh;
+	}
+	#fale-conosco .row{
+		padding-top: 5vh;
+	}
+	#fale-conosco .row textarea{
+		height: 70px;
+	}
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	#fale-conosco{
+		height: 100vh;
+	}
+	#fale-conosco .row{
+		padding-top: 2vh;
+	}
+	#fale-conosco .row textarea{
+		height: 85px;
+	}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	#fale-conosco{
+		height: 700px;
+	}
+	#fale-conosco .row{
+		padding-top: 1.5vh;
+	}
+	#fale-conosco .row textarea{
+		height: 130px;
+	}
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	#fale-conosco{
+		height: 750px;
+	}
+	#fale-conosco .row{
+		padding-top: 1vh;
+	}
+	#fale-conosco .row textarea{
+		height: 150px;
+	}
 }
