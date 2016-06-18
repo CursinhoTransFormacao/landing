@@ -57,7 +57,7 @@ nav li {
 	margin: 0 50px 0 50px;
 }
 /**********************************
-* QUARTA SEÇÃO - FALE CONOSCO
+* QUARTA SEÇÃO - FALE CONOSCO @brunoluizgr
 **********************************/
 #fale-conosco{
 	border-top: 10px solid #FFC0CB;
@@ -132,7 +132,7 @@ nav li {
 	-o-transition: background-color 0.3s ease;
 }
 /**********************************
-* QUINTA SEÇÃO - RODAPÉ
+* QUINTA SEÇÃO - RODAPÉ @brunoluizgr
 **********************************/
 footer{
 	color:#FFFFFF;
@@ -163,7 +163,7 @@ footer p a span:nth-child(2){
 	line-height: 3rem;
 }
 /**********************************
-* MEDIA QUERIES AJUSTES - Retirado de https://scotch.io/tutorials/default-sizes-for-twitter-bootstraps-media-queries
+* MEDIA QUERIES AJUSTES - Retirado de https://scotch.io/tutorials/default-sizes-for-twitter-bootstraps-media-queries @brunoluizgr
 **********************************/
 /*==========  Método Non-Mobile   ==========*/
 /* Mega-Large-Devices++ */
