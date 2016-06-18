@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="Site Institucional do Cursinho Popular TransFormação">
-    <meta name="author" content="Coletivo TransFormação">
-    <link rel="icon" href="favicon.ico">
+    <meta name="description" content="Site Institucional do Cursinho Popular TransFormação"/>
+    <meta name="author" content="Coletivo TransFormação"/>
+    <link rel="icon" href="favicon.ico"/>
 
     <title>Cursinho Popular TransFormação</title>
 
     <!-- Bootstrap core CSS -->
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700|PT+Sans:400,700" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome core CSS -->
     <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- SweetAlert core CSS -->
+    <link href="css/sweetalert.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
@@ -83,16 +87,8 @@
     <!--INÍCIO QUARTA SEÇÃO (@brunoluizgr) -->
     <section id="fale-conosco" class="container-fluid">
       <div class="row">
-        <div class="col-md-6 col-lg-6">
-          <form>
-            <p><input type="text" name="fale-conosco-nome" class="form-control" placeholder="NOME"></input></p>
-            <p><input type="email" name="fale-conosco-email" class="form-control" placeholder="EMAIL"></input></p>
-            <p><input type="tel" name="fale-conosco-telefone" class="form-control" placeholder="TELEFONE"></input></p>
-            <p><textarea name="fale-conosco-mensagem" class="form-control" rows="10" placeholder="MENSAGEM"></textarea></p>
-            <p class="pull-right"><button type="button" class="btn btn-enviar">ENVIAR</button></p>
-          </form>
-        </div>
-        <div class="col-md-6 col-lg-6">
+        <!-- Sub-Seção de Título Mobile/Tablet -->
+        <div class="col-xs-12 col-lg-12 hidden-md hidden-lg">
           <div class="text-center"><h4>FALE CONOSCO</h4></div>
           <div class="text-left">
             <p>Preencha o formulário ao lado ou se preferir, envie sua mensagem para: cursinhopopulartrans@gmail.com</p>
@@ -100,45 +96,75 @@
             <p>Sua mensagem será respondida em breve por um dos militantes do <strong>Coletivo TransFormação</strong>.</p>
           </div>
         </div>
+        <!-- Fim da Sub-Seção de Título -->
+        <!-- Formulário de Contato -->
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <form id="form-fale-conosco" method="POST" action="formulario-de-contato.php">
+            <p><input type="text" name="fale-conosco-nome" class="form-control" placeholder="NOME" required></input></p>
+            <p><input type="email" name="fale-conosco-email" class="form-control" placeholder="EMAIL" required></input></p>
+            <p><input type="tel" name="fale-conosco-telefone" class="form-control" placeholder="TELEFONE" required></input></p>
+            <p><textarea name="fale-conosco-mensagem" class="form-control" placeholder="MENSAGEM" required></textarea></p>
+            <p class="pull-right"><button type="submit" value="submit" class="btn btn-enviar">ENVIAR</button></p>
+          </form>
+        </div>
+        <!-- Fim do Formulário de Contato -->
+        <!-- Sub-Seção de Título Tablet/Desktop -->
+        <div class="col-md-6 col-lg-6 hidden-xs hidden-sm">
+          <div class="text-center"><h4>FALE CONOSCO</h4></div>
+          <div class="text-left">
+            <p>Preencha o formulário ao lado ou se preferir, envie sua mensagem para: cursinhopopulartrans@gmail.com</p>
+            <p>Nossas aulas acontecem toda segunda e quinta, das 14h30 às 18h</p>
+            <p>Sua mensagem será respondida em breve por um dos militantes do <strong>Coletivo TransFormação</strong>.</p>
+          </div>
+        </div>
+        <!-- Fim da Sub-Seção de Título Tablet/Desktop -->
       </div>
     </section>
     <!--FIM QUARTA SEÇÃO-->
     <!--INÍCIO QUINTA SEÇÃO (@brunoluizgr) -->
-    <footer>
-      <p>
-        <a href="https://facebook.com/CursinhoPopularTransformação" target="_blank">
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-square fa-stack-2x rosa-bg"></i>
-            <i class="fa fa-facebook fa-stack-1x"></i>
-          </span>
-          /CursinhoPopularTransformação
-        </a>
-      </p>
-      <p>
-        <a href="mailto:cursinhopopulartrans@gmail.com?Subject=[CONTATO-SITE] Mensagem Automática" target="_top">
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-square fa-stack-2x rosa-bg"></i>
-            <i class="fa fa-envelope fa-stack-1x"></i>
-          </span>
-          cursinhopopulartrans@gmail.com
-        </a>
-      </p>
-      <p>
-        <a href="https://www.google.com/maps/place/Centro+de+Refer%C3%AAncia+da+Diversidade/@-23.5453645,-46.6491395,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce58492818b0ab:0x2851422ce95b25c7!8m2!3d-23.5453694!4d-46.6469455" target="_blank">
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-square fa-stack-2x rosa-bg"></i>
-            <i class="fa fa-map-marker fa-stack-1x"></i>
-          </span>
-          CRD SP - Rua Major Sertório, 292/294 - República -  São Paulo
-        </a>
-      </p>
+    <footer class="container-fluid">
+      <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+        <p class"col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <a class="row" href="https://facebook.com/CursinhoPopularTransformação" target="_blank">
+            <span class="fa-stack fa-lg col-xs-2">
+              <i class="fa fa-square fa-stack-2x rosa-bg"></i>
+              <i class="fa fa-facebook fa-stack-1x"></i>
+            </span>
+            <span class="col-xs-10">/CursinhoPopularTransformação</span>
+          </a>
+        </p>
+        <p class"col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <a class="row" href="mailto:cursinhopopulartrans@gmail.com?Subject=[CONTATO-SITE] Mensagem Automática" target="_top">
+            <span class="fa-stack fa-lg col-xs-2">
+              <i class="fa fa-square fa-stack-2x rosa-bg"></i>
+              <i class="fa fa-envelope fa-stack-1x"></i>
+            </span>
+            <span class="col-xs-10">cursinhopopulartrans@gmail.com</span>
+          </a>
+        </p>
+        <p class"col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <a class="row" href="https://www.google.com/maps/place/Centro+de+Refer%C3%AAncia+da+Diversidade/@-23.5453645,-46.6491395,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce58492818b0ab:0x2851422ce95b25c7!8m2!3d-23.5453694!4d-46.6469455" target="_blank">
+            <span class="fa-stack fa-lg col-xs-2">
+              <i class="fa fa-square fa-stack-2x rosa-bg"></i>
+              <i class="fa fa-map-marker fa-stack-1x"></i>
+            </span>
+            <span class="col-xs-10">CRD SP - Rua Major Sertório, 292/294 - República -  São Paulo</span>
+          </a>
+        </p>
+      </div>
     </fotter>
     <!--FIM QUINTA SEÇÃO-->
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <!-- BootStrap -->
     <script src="js/bootstrap.min.js"></script>
+    <!-- SweetAlert -->
+    <script src="js/sweetalert.min.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="js/main.js"></script>
   </body>
 </html>
