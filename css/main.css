@@ -60,7 +60,8 @@ nav li {
 	margin-top: 150px;
 	color: #fff;
 	background-color: gray;
-  height: 450px;
+  height: 480px;
+	border-bottom: 10px solid #87CEFA;
   background: url(http://i.imgur.com/0YgkV7X.png) no-repeat center center fixed;
  -webkit-background-size: cover;
  -moz-background-size: cover;
