@@ -52,3 +52,35 @@ nav li {
 #navbar-container {
 	margin: 0 50px 0 50px;
 }
+/**********************************
+ * QUINTA SEÇÃO @brunoluizgr
+ **********************************/
+footer{
+ 	color:#FFFFFF;
+	background-color:#27282A;
+	padding: 2.5rem 3%;
+}
+footer p a span{
+	margin-right: 2.5rem;
+}
+footer .rosa-bg{
+	color:#FFC0CB;
+}
+footer a{
+	color:#FFFFFF;
+}
+footer a:active,
+footer a:focus,
+footer a:hover{
+	color:#FFFFFF;
+	text-decoration: none;
+}
+
+footer a:hover span i.rosa-bg{
+	color:#FF889D;
+	transition: color 0.3s ease;
+	-webkit-transition: color 0.3s ease;
+	-moz-transition: color 0.3s ease;
+	-ms-transition: color 0.3s ease;
+	-o-transition: color 0.3s ease;
+}
