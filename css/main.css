@@ -1,6 +1,6 @@
 /*
 Cores que serão usadas no site
-Azul color: #87CEFA; | Rosa color: #ffc0cb; | Preto color: #27282b; | Branco color: #f9f9f9; | Branco color: #ffffff 
+Azul color: #87CEFA; | Rosa color: #ffc0cb; | Preto color: #27282b; | Branco color: #f9f9f9; | Branco color: #ffffff
 
 Fontes usadas no site
 font-family: 'PT Sans', sans-serif;
@@ -52,6 +52,56 @@ nav li {
 #navbar-container {
 	margin: 0 50px 0 50px;
 }
+
+/**********************************
+ * PRIMEIRA SEÇÃO @gionaufal
+ **********************************/
+#home {
+	margin-top: 150px;
+	color: #fff;
+	background-color: gray;
+  height: 450px;
+  background: url(http://i.imgur.com/0YgkV7X.png) no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+
+#home h1 {
+	font-family: 'PT Sans Caption', sans-serif;
+	font-weight: bold;
+	color: #87CEFA;
+}
+
+#home h5{
+	font-weight: bold;
+}
+
+#home p{
+	width: 50%;
+	padding: 5px;
+	border-left: 5px solid white;
+}
+
+#saiba-mais{
+	color: #fff;
+	background-color:transparent;
+	border: 1px solid white;
+	width: 150px;
+	font-size: 130%;
+
+}
+
+#saiba-mais:hover{
+	color:#ffc0cb;
+}
+
+#saiba-mais:focus{
+	color:#87CEFA;
+}
+
+
 /**********************************
  * QUINTA SEÇÃO @brunoluizgr
  **********************************/
