@@ -18,6 +18,7 @@ Criação do arquivo CSS próprio<br>
 Gerenciamento das alterações<br>
 *Dia 3*<br>
 Gerenciamento das alterações<br>
+Correções de código<br>
 *Dia 4*<br>
 Gerenciamento das alterações<br>
 Adaptações do código para adequar-se ao layout<br><br>
