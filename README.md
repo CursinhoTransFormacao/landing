@@ -14,6 +14,14 @@ Desenvolverei esse projeto dentro do tema proposto no artigo  do FreeCodeCamp<br
 *Dia 1*<br>
 Inserção dos elementos textuais<br>
 Criação do arquivo CSS próprio<br>
+*Dia 2*<br>
+Gerenciamento das alterações<br>
+*Dia 3*<br>
+Gerenciamento das alterações<br>
+Correções de código<br>
+*Dia 4*<br>
+Gerenciamento das alterações<br>
+Adaptações do código para adequar-se ao layout<br><br>
 
 #Sobre o Cursinho Popular TransFormação
 
