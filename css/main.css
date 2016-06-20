@@ -4,14 +4,11 @@ Azul color: #87CEFA; - COR BASE - USADO EM TODO O LAYOUT
 [ANIMAÇÕES] - USAR SOMENTE EM ACTIVE/FOCUS/HOVER
 [TONS CLAROS] Azul color-1: #96D4FB; | Azul color-2: #A5DAFB; | Azul color-3: #B4E0FC; |
 [TONS ESCUROS] Azul color+1: #59BBF8; | Azul color+2: #2BA8F6; | Azul color+3: #0A92E7;
-
 Rosa color: #FFC0CB;  - COR BASE - USADO EM TODO O LAYOUT
 [ANIMAÇÕES] - USAR SOMENTE EM ACTIVE/FOCUS/HOVER
 [TONS CLAROS] Rosa color-1: #FFC8D2; | Rosa color-2: #FFD0D8; | Rosa color-3: #FFD8DF;
 [TONS ESCUROS] Rosa color+1: #FF889D; | Rosa color+2: #FF506F; | Rosa color+3: #FF1841;
-
 Preto color: #27282b; | Branco color: #F9F9F9; | Branco color: #FFFFFF;
-
 Fontes usadas no site
 font-family: 'PT Sans', sans-serif;
 font-family: 'PT Sans Caption', sans-serif;
@@ -56,6 +53,37 @@ nav li {
 #navbar-container {
 	margin: 0 50px 0 50px;
 }
+
+/**********************************
+ * SEGUNDA SEÇÃO - SOBRE @gionaufal
+ **********************************/
+#sobre{
+	border-bottom: 10px solid #87CEFA;
+}
+
+#sobre .img-responsive{
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+#sobre h2{
+	font-weight: bold;
+}
+
+#sobre p{
+	padding: 10px;
+	border-left: 5px solid #87CEFA;
+}
+
+.btn-paypal {
+	width: 60%;
+	margin: 0 auto;
+	background-color: #27282b;
+	color: #F9F9F9;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
 /**********************************
 * QUARTA SEÇÃO - FALE CONOSCO @brunoluizgr
 **********************************/
