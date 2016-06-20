@@ -25,14 +25,18 @@ body {
 h1{
 	color: #87CEFA;
 }
+
+/*** Menu ***/
 /**********************************
  * MENU @arbolitoloco
- **********************************/
-nav {
+ **********************************/nav {
 	background-color: #ffffff;
 	font-size: 22px;
 	height: 150px;
 }
+
+
+
 nav ul {
 	list-style: none;
 	margin: 10px;
@@ -41,21 +45,28 @@ nav ul {
 	height: 100px;
 	text-align: center;
 }
+
 nav li {
 	margin: 40px 50px 40px 50px;
 	display: inline-block;
 	float: left;
 }
+
+
 .navbar-header {
 	padding: 20px 10px 10px 10px;
 }
+
+
 .navbar-fixed-top {
 	border-top: 10px solid #87CEFA;
 	border-bottom: 10px solid #ffc0cb;
 }
+
 #navbar-container {
 	margin: 0 50px 0 50px;
 }
+
 /**********************************
 * QUARTA SEÇÃO - FALE CONOSCO @brunoluizgr
 **********************************/
