@@ -169,12 +169,12 @@ nav li {
     border-color: #ffc0cb;
 }
 
-#imagensfb{
+#imagens{
 	padding-top: 50px;
 	padding-bottom: 60px;
 }
 
-#imagensfb h3{
+#imagens h3{
 	font-weight: bold;
 	font-size: 26px;
 }
@@ -182,21 +182,21 @@ nav li {
 /**********************************
 * QUARTA SEÇÃO - FALE CONOSCO @brunoluizgr
 **********************************/
-#fale-conosco{
+#contato{
 	border-top: 10px solid #FFC0CB;
 	padding: 2.5rem 3%;
 }
-#fale-conosco .row h4{
+#contato .row h4{
 	font-size: 2.5rem;
 	font-family: 'PT Sans', sans-serif;
 	font-weight: bolder;
 }
-#fale-conosco .row p{
+#contato .row p{
 	margin-top: 2.5rem;
 	font-size: 1.4rem;
 }
-#fale-conosco .row input,
-#fale-conosco .row textarea{
+#contato .row input,
+#contato .row textarea{
 	color: #27282b;
 	background-color: #F9F9F9;
 	border-radius: 0;
@@ -210,34 +210,34 @@ nav li {
 	-o-box-shadow: none;
 	box-shadow: none;
 }
-#fale-conosco ::-webkit-input-placeholder{
+#contato ::-webkit-input-placeholder{
 	color: #27282b;
 	font-weight: normal;
 	font-size: 1.4rem;
 }
-#fale-conosco :-moz-placeholder{
+#contato :-moz-placeholder{
 	color: #27282b;
 	font-weight: normal;
 	font-size: 1.4rem;
 }
-#fale-conosco ::-moz-placeholder{
+#contato ::-moz-placeholder{
 	color: #27282b;
 	font-weight: normal;
 	font-size: 1.4rem;
 }
-#fale-conosco :-ms-input-placeholder{
+#contato :-ms-input-placeholder{
 	color: #27282b;
 	font-weight: normal;
 	font-size: 1.4rem;
 }
-#fale-conosco .row .btn-enviar{
+#contato .row .btn-enviar{
 	color: #FFFFFF;
 	background-color: #FFC0CB;
 	font-weight: bolder;
 	font-size: 1.6rem;
 	border-radius: 0;
 }
-#fale-conosco .row .btn-enviar:active{
+#contato .row .btn-enviar:active{
 	background-color: #FF506F;
 	transition: background-color 0.3s ease;
 	-webkit-transition: background-color 0.3s ease;
@@ -245,8 +245,8 @@ nav li {
 	-ms-transition: background-color 0.3s ease;
    -o-transition: background-color 0.3s ease;
  }
- #fale-conosco .row .btn-enviar:focus,
- #fale-conosco .row .btn-enviar:hover{
+ #contato .row .btn-enviar:focus,
+ #contato .row .btn-enviar:hover{
  	background-color: #FF889D;
  	transition: background-color 0.3s ease;
  	-webkit-transition: background-color 0.3s ease;
@@ -291,73 +291,73 @@ nav li {
  /*==========  Método Non-Mobile   ==========*/
  /* Mega-Large-Devices++ */
  @media only screen and (min-width : 1201px) {
- 	#fale-conosco{
+ 	#contato{
  		height: 100vh;
  	}
- 	#fale-conosco .row{
+ 	#contato .row{
  		padding-top: 10vh;
  	}
- 	#fale-conosco .row textarea{
+ 	#contato .row textarea{
  		height: 200px;
  	}
  }
  /* Large Devices, Wide Screens */
  @media only screen and (max-width : 1200px) {
- #fale-conosco{
+ #contato{
  	height: 100vh;
  }
- #fale-conosco .row{
+ #contato .row{
  	padding-top: 10vh;
  }
- #fale-conosco .row textarea{
+ #contato .row textarea{
  	height: 180px;
  	}
  }
  /* Medium Devices, Desktops */
  @media only screen and (max-width : 992px) {
- #fale-conosco{
+ #contato{
  	height: 100vh;
  }
- #fale-conosco .row{
+ #contato .row{
  	padding-top: 5vh;
  }
- #fale-conosco .row textarea{
+ #contato .row textarea{
  	height: 70px;
  	}
  }
  /* Small Devices, Tablets */
  @media only screen and (max-width : 768px) {
- #fale-conosco{
+ #contato{
  	height: 100vh;
  }
- #fale-conosco .row{
+ #contato .row{
  	padding-top: 2vh;
  }
- #fale-conosco .row textarea{
+ #contato .row textarea{
  	height: 85px;
  	}
  }
  /* Extra Small Devices, Phones */
  @media only screen and (max-width : 480px) {
- 	#fale-conosco{
+ 	#contato{
  	height: 700px;
  	}
- #fale-conosco .row{
+ #contato .row{
  	padding-top: 1.5vh;
  }
- #fale-conosco .row textarea{
+ #contato .row textarea{
  	height: 130px;
  	}
  }
  /* Custom, iPhone Retina */
  @media only screen and (max-width : 320px) {
- #fale-conosco{
+ #contato{
  	height: 750px;
  	}
- #fale-conosco .row{
+ #contato .row{
  	padding-top: 1vh;
  	}
- #fale-conosco .row textarea{
+ #contato .row textarea{
  	height: 150px;
  	}
  }
