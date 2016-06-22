@@ -40,10 +40,13 @@ nav {
 nav ul {
 	list-style: none;
 	margin: 10px;
-	padding: 0;
 	float: right;
 	height: 110px;
 	text-align: center;
+	/*last changes*/
+	padding: 0 1em 0 1em;
+    font-size: 20px;
+    height: 110px;
 }
 
 nav li {
@@ -53,17 +56,28 @@ nav li {
 }
 
 .navbar-header {
-	padding: 20px 10px 10px 10px;
+	/*padding: 20px 10px 10px 10px;
+	last changes*/
+	padding: 1em;
 }
 
 .navbar-fixed-top {
-	border-top: 10px solid #87CEFA;
-	border-bottom: 10px solid #ffc0cb;
+	/*last changes*/
+	background-color: #ffffff;
+ 	border-top: 10px solid #87CEFA;
+ 	border-bottom: 10px solid #ffc0cb;
 }
 
 #navbar-container {
 	margin: 0 50px 0 50px;
+	/*last changes*/
+
 }
+
+.navbar-toggle {
+   border: none;
+   padding: 1.5em;
+ }
 
 /**********************************
 * PRIMEIRA SEÇÃO @gionaufal
@@ -278,9 +292,9 @@ nav li {
  	color:#FF889D;
  	transition: color 0.3s ease;
  	-webkit-transition: color 0.3s ease;
-   -moz-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
  	-ms-transition: color 0.3s ease;
-   -o-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
  }
  footer p a span:nth-child(2){
  	line-height: 3rem;
@@ -303,61 +317,78 @@ nav li {
  }
  /* Large Devices, Wide Screens */
  @media only screen and (max-width : 1200px) {
- #contato{
- 	height: 100vh;
- }
- #contato .row{
- 	padding-top: 10vh;
- }
- #contato .row textarea{
- 	height: 180px;
+ 	#contato{
+ 		height: 100vh;
+	}
+ 	#contato .row{
+ 		padding-top: 10vh;
+	}
+ 	#contato .row textarea{
+ 		height: 180px;
  	}
  }
  /* Medium Devices, Desktops */
  @media only screen and (max-width : 992px) {
- #contato{
- 	height: 100vh;
- }
- #contato .row{
- 	padding-top: 5vh;
- }
- #contato .row textarea{
- 	height: 70px;
+ 	#contato{
+ 		height: 100vh;
+ 	}
+ 	#contato .row{
+ 		padding-top: 5vh;
+ 	}
+ 	#contato .row textarea{
+ 		height: 70px;
  	}
  }
  /* Small Devices, Tablets */
  @media only screen and (max-width : 768px) {
- #contato{
- 	height: 100vh;
- }
- #contato .row{
- 	padding-top: 2vh;
- }
- #contato .row textarea{
- 	height: 85px;
+
+nav li {
+ 		padding: 1.7em;
  	}
- }
+
+ 	#contato{
+ 		height: 100vh;
+ 	}
+ 	#contato .row{
+ 		padding-top: 2vh;
+ 	}
+ 	#contato .row textarea{
+ 		height: 85px;
+   	}
+}
+
  /* Extra Small Devices, Phones */
+ nav ul {
+  	width: 50vw;
+  	height: 80vw;
+  	float: right;
+ }
+ 
+ nav li {
+  	background-color: #ffffff;
+ 	padding: 1em;
+ }
+
  @media only screen and (max-width : 480px) {
  	#contato{
- 	height: 700px;
+ 		height: 700px;
  	}
- #contato .row{
- 	padding-top: 1.5vh;
+	#contato .row{
+ 		padding-top: 1.5vh;
  }
- #contato .row textarea{
- 	height: 130px;
+ 	#contato .row textarea{
+ 		height: 130px;
  	}
  }
  /* Custom, iPhone Retina */
  @media only screen and (max-width : 320px) {
- #contato{
- 	height: 750px;
+ 	#contato{
+ 		height: 750px;
  	}
- #contato .row{
- 	padding-top: 1vh;
+ 	#contato .row{
+ 		padding-top: 1vh;
  	}
- #contato .row textarea{
- 	height: 150px;
+ 	#contato .row textarea{
+ 		height: 150px;
  	}
  }
