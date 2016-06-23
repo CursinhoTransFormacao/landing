@@ -37,16 +37,26 @@ nav {
 	height: 110px;
 }
 
+nav a{
+	color:#27282b;
+}
+nav a:hover{
+	text-decoration: none;
+	color:#27282b;
+}
+nav a:visited{
+	text-decoration: none;
+	color:#27282b;
+}
+
 nav ul {
 	list-style: none;
 	margin: 10px;
 	float: right;
 	height: 110px;
 	text-align: center;
-	/*last changes*/
 	padding: 0 1em 0 1em;
     font-size: 20px;
-    height: 110px;
 }
 
 nav li {
@@ -56,13 +66,10 @@ nav li {
 }
 
 .navbar-header {
-	/*padding: 20px 10px 10px 10px;
-	last changes*/
 	padding: 1em;
 }
 
 .navbar-fixed-top {
-	/*last changes*/
 	background-color: #ffffff;
  	border-top: 10px solid #87CEFA;
  	border-bottom: 10px solid #ffc0cb;
@@ -70,8 +77,6 @@ nav li {
 
 #navbar-container {
 	margin: 0 50px 0 50px;
-	/*last changes*/
-
 }
 
 .navbar-toggle {
