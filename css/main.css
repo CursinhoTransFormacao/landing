@@ -31,15 +31,25 @@ h1{
 * MENU @arbolitoloco
 **********************************/
 nav {
-	background-color: #ffffff;
-	font-size: 22px;
+	padding: 0 1em 0 1em;
+	font-size: 16px;
 	font-weight: bold;
 	height: 110px;
-}
-
-nav a{
 	color:#27282b;
 }
+
+nav ul {
+	list-style: none;
+	margin:5px
+	float: right;
+}
+
+nav li {
+  	padding: 1em;
+  	display: inline-block;
+  	text-align: center;
+}
+
 nav a:hover{
 	text-decoration: none;
 	color:#27282b;
@@ -49,30 +59,8 @@ nav a:visited{
 	color:#27282b;
 }
 
-nav ul {
-	list-style: none;
-	margin: 10px;
-	float: right;
-	height: 110px;
-	text-align: center;
-	padding: 0 1em 0 1em;
-    font-size: 20px;
-}
-
-nav li {
-	margin: 20px 50px 20px 50px;
-	display: inline-block;
-	float: left;
-}
-
 .navbar-header {
 	padding: 1em;
-}
-
-.navbar-fixed-top {
-	background-color: #ffffff;
- 	border-top: 10px solid #87CEFA;
- 	border-bottom: 10px solid #ffc0cb;
 }
 
 #navbar-container {
@@ -82,11 +70,18 @@ nav li {
 .navbar-toggle {
    border: none;
    padding: 1.5em;
- }
+}
+
+.navbar-fixed-top {
+  background-color: #ffffff;
+  border-top: 10px solid #87CEFA;
+  border-bottom: 10px solid #ffc0cb;
+}
 
 /**********************************
 * PRIMEIRA SEÇÃO @gionaufal
 **********************************/
+
 #home {
 	margin-top: 90px;
   	padding:40px;
@@ -363,15 +358,15 @@ nav li {
 }
 
  /* Extra Small Devices, Phones */
- nav ul {
-  	width: 50vw;
-  	height: 80vw;
-  	float: right;
- }
- 
- nav li {
-  	background-color: #ffffff;
- 	padding: 1em;
+	 nav ul {
+	  	width: 50vw;
+	  	height: 80vw;
+	  	float: right;
+	 }
+	 
+	 nav li {
+	  	background-color: #ffffff;
+	 	padding: 1em;
  }
 
  @media only screen and (max-width : 480px) {
