@@ -8,21 +8,6 @@ Layout<br>
 https://drive.google.com/file/d/0BxYN2H5xYHu-LW9vQWYtSW5yZE0/view<br>
 *Preciso desenvolver as imagens que serão usadas no projeto e estão no layout*
 
-#100DaysOfCode
-Desenvolverei esse projeto dentro do tema proposto no artigo  do FreeCodeCamp<br> https://medium.freecodecamp.com/join-the-100daysofcode-556ddb4579e4#.kpggx3fa3
-<br>
-*Dia 1*<br>
-Inserção dos elementos textuais<br>
-Criação do arquivo CSS próprio<br>
-*Dia 2*<br>
-Gerenciamento das alterações<br>
-*Dia 3*<br>
-Gerenciamento das alterações<br>
-Correções de código<br>
-*Dia 4*<br>
-Gerenciamento das alterações<br>
-Adaptações do código para adequar-se ao layout<br><br>
-
 #Sobre o Cursinho Popular TransFormação
 
   <strong>Quem somos?</strong>
