@@ -32,16 +32,16 @@ h1{
 **********************************/
 nav {
 	padding: 0 1em 0 1em;
-	font-size: 16px;
 	font-weight: bold;
 	height: 110px;
-	color:#27282b;
+	color: #27282b;
 }
 
 nav ul {
 	list-style: none;
-	margin:5px
-	float: right;
+	font-size: 18px;
+	color: #27282b;
+	background-color: #ffffff;
 }
 
 nav li {
@@ -50,33 +50,26 @@ nav li {
   	text-align: center;
 }
 
-nav a:hover{
-	text-decoration: none;
-	color:#27282b;
-}
-nav a:visited{
-	text-decoration: none;
-	color:#27282b;
+.navbar-fixed-top {
+   background-color: #ffffff;
+   border-top: 10px solid #87CEFA;
+   border-bottom: 10px solid #ffc0cb;
 }
 
 .navbar-header {
 	padding: 1em;
 }
 
-#navbar-container {
-	margin: 0 50px 0 50px;
-}
-
 .navbar-toggle {
    border: none;
    padding: 1.5em;
+   color: #27282b;
 }
 
-.navbar-fixed-top {
-  background-color: #ffffff;
-  border-top: 10px solid #87CEFA;
-  border-bottom: 10px solid #ffc0cb;
+.navbar-nav > li {
+    float: right;
 }
+
 
 /**********************************
 * PRIMEIRA SEÇÃO @gionaufal
@@ -342,10 +335,6 @@ nav a:visited{
  /* Small Devices, Tablets */
  @media only screen and (max-width : 768px) {
 
-nav li {
- 		padding: 1.7em;
- 	}
-
  	#contato{
  		height: 100vh;
  	}
@@ -358,17 +347,6 @@ nav li {
 }
 
  /* Extra Small Devices, Phones */
-	 nav ul {
-	  	width: 50vw;
-	  	height: 80vw;
-	  	float: right;
-	 }
-	 
-	 nav li {
-	  	background-color: #ffffff;
-	 	padding: 1em;
- }
-
  @media only screen and (max-width : 480px) {
  	#contato{
  		height: 700px;
