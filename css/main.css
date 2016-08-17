@@ -70,6 +70,9 @@ nav li {
     float: right;
 }
 
+/** Classe adicionada a cada âncora de
+* seção, para que o menu não esconda parte da
+* tela ao clicar **/
 
 /**********************************
 * PRIMEIRA SEÇÃO @gionaufal
@@ -77,7 +80,7 @@ nav li {
 
 #home {
 	margin-top: 90px;
-  	padding:40px;
+  	padding: 120px 40px 60px 40px;
 	color: #fff;
 	background-color: gray;
 	height: 480px;
@@ -127,7 +130,7 @@ nav li {
  **********************************/
 #sobre{
 	border-bottom: 10px solid #87CEFA;
-	padding:40px;
+	padding: 120px 40px 60px 40px;
 }
 
 #sobre .img-responsive{
@@ -177,8 +180,7 @@ nav li {
 }
 
 #imagens{
-	padding-top: 50px;
-	padding-bottom: 60px;
+	padding: 120px 40px 60px 40px;
 }
 
 #imagens h3{
@@ -191,7 +193,7 @@ nav li {
 **********************************/
 #contato{
 	border-top: 10px solid #FFC0CB;
-	padding: 2.5rem 3%;
+	padding: 3rem 3%;
 }
 #contato .row h4{
 	font-size: 2.5rem;
@@ -324,6 +326,7 @@ nav li {
  @media only screen and (max-width : 992px) {
  	#contato{
  		height: 100vh;
+ 		padding-top: 90px;
  	}
  	#contato .row{
  		padding-top: 5vh;
@@ -348,6 +351,10 @@ nav li {
 
  /* Extra Small Devices, Phones */
  @media only screen and (max-width : 480px) {
+    #home {
+    	height: 900px;
+    }
+
  	#contato{
  		height: 700px;
  	}
@@ -360,8 +367,23 @@ nav li {
  }
  /* Custom, iPhone Retina */
  @media only screen and (max-width : 320px) {
+ 	#home {
+ 		padding-top: 50px;
+ 		height: 900px;
+ 	}
+
+ 	#sobre {
+ 		padding-top: 100px;
+ 		height: 1000px;
+ 	}
+
+ 	#imagens {
+ 		padding-top: 100px;
+ 	}
+
  	#contato{
- 		height: 750px;
+ 		height: 800px;
+ 		padding-top: 90px;
  	}
  	#contato .row{
  		padding-top: 1vh;
