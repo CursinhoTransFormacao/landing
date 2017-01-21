@@ -164,10 +164,6 @@ nav a:visited{
 /**********************************
 * Colabs de @pedroleone / @gabirobs / @frenktico
 **********************************/
-.modal {
-	overflow: auto;
-	color: #333;
-}
 #gallery {
 	margin: 20px;
 }
@@ -177,6 +173,8 @@ nav a:visited{
     border-width: 5px;
     border-color: #87CEFA; 
     border-style: solid;
+    width: 190px;
+    height: 190px;
 }
 
 #gallery a:nth-of-type(odd) img {
