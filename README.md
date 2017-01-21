@@ -20,9 +20,10 @@ https://drive.google.com/file/d/0BxYN2H5xYHu-LW9vQWYtSW5yZE0/view<br>
   _As aulas acontecem às segundas e quintas-feiras no CRD (Rua Major Sertório, 292 - República - São Paulo)._
   _O local oferece auxílio transporte e alimentação a quem fizer parte do Cursinho Transformação._
 
-#Atualizações sobre o código
-Revisar o CSS;
-Inserir seção para o Transarau;
-Definir qual o meio de fazer o deploy da landing;
+#Atualizações 2017
+Revisar o HTML;<br>
+Inserir seção para o Transarau & Transarrada;<br>
+Definir qual o meio de fazer o deploy da landing;<br>
+Centralizar o menu e rodapé<br>
 
 Prazo de conclusão 25/01/2017
