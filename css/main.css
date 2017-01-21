@@ -32,16 +32,16 @@ h1{
 **********************************/
 nav {
 	padding: 0 1em 0 1em;
-	font-size: 16px;
 	font-weight: bold;
 	height: 110px;
-	color:#27282b;
+	color: #27282b;
 }
 
 nav ul {
 	list-style: none;
-	margin:5px
-	float: right;
+	font-size: 18px;
+	color: #27282b;
+	background-color: #ffffff;
 }
 
 nav li {
@@ -50,33 +50,29 @@ nav li {
   	text-align: center;
 }
 
-nav a:hover{
-	text-decoration: none;
-	color:#27282b;
-}
-nav a:visited{
-	text-decoration: none;
-	color:#27282b;
+.navbar-fixed-top {
+   background-color: #ffffff;
+   border-top: 10px solid #87CEFA;
+   border-bottom: 10px solid #ffc0cb;
 }
 
 .navbar-header {
 	padding: 1em;
 }
 
-#navbar-container {
-	margin: 0 50px 0 50px;
-}
-
 .navbar-toggle {
    border: none;
    padding: 1.5em;
+   color: #27282b;
 }
 
-.navbar-fixed-top {
-  background-color: #ffffff;
-  border-top: 10px solid #87CEFA;
-  border-bottom: 10px solid #ffc0cb;
+.navbar-nav > li {
+    float: right;
 }
+
+/** Classe adicionada a cada âncora de
+* seção, para que o menu não esconda parte da
+* tela ao clicar **/
 
 /**********************************
 * PRIMEIRA SEÇÃO @gionaufal
@@ -84,7 +80,7 @@ nav a:visited{
 
 #home {
 	margin-top: 90px;
-  	padding:40px;
+  	padding: 120px 40px 60px 40px;
 	color: #fff;
 	background-color: gray;
 	height: 480px;
@@ -134,7 +130,7 @@ nav a:visited{
  **********************************/
 #sobre{
 	border-bottom: 10px solid #87CEFA;
-	padding:40px;
+	padding: 120px 40px 60px 40px;
 }
 
 #sobre .img-responsive{
@@ -184,8 +180,7 @@ nav a:visited{
 }
 
 #imagens{
-	padding-top: 50px;
-	padding-bottom: 60px;
+	padding: 120px 40px 60px 40px;
 }
 
 #imagens h3{
@@ -198,7 +193,7 @@ nav a:visited{
 **********************************/
 #contato{
 	border-top: 10px solid #FFC0CB;
-	padding: 2.5rem 3%;
+	padding: 3rem 3%;
 }
 #contato .row h4{
 	font-size: 2.5rem;
@@ -331,6 +326,7 @@ nav a:visited{
  @media only screen and (max-width : 992px) {
  	#contato{
  		height: 100vh;
+ 		padding-top: 90px;
  	}
  	#contato .row{
  		padding-top: 5vh;
@@ -341,10 +337,6 @@ nav a:visited{
  }
  /* Small Devices, Tablets */
  @media only screen and (max-width : 768px) {
-
-nav li {
- 		padding: 1.7em;
- 	}
 
  	#contato{
  		height: 100vh;
@@ -358,18 +350,11 @@ nav li {
 }
 
  /* Extra Small Devices, Phones */
-	 nav ul {
-	  	width: 50vw;
-	  	height: 80vw;
-	  	float: right;
-	 }
-	 
-	 nav li {
-	  	background-color: #ffffff;
-	 	padding: 1em;
- }
-
  @media only screen and (max-width : 480px) {
+    #home {
+    	height: 900px;
+    }
+
  	#contato{
  		height: 700px;
  	}
@@ -382,8 +367,23 @@ nav li {
  }
  /* Custom, iPhone Retina */
  @media only screen and (max-width : 320px) {
+ 	#home {
+ 		padding-top: 50px;
+ 		height: 900px;
+ 	}
+
+ 	#sobre {
+ 		padding-top: 100px;
+ 		height: 1000px;
+ 	}
+
+ 	#imagens {
+ 		padding-top: 100px;
+ 	}
+
  	#contato{
- 		height: 750px;
+ 		height: 800px;
+ 		padding-top: 90px;
  	}
  	#contato .row{
  		padding-top: 1vh;
