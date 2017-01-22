@@ -21,9 +21,8 @@ https://drive.google.com/file/d/0BxYN2H5xYHu-LW9vQWYtSW5yZE0/view<br>
   _O local oferece auxílio transporte e alimentação a quem fizer parte do Cursinho Transformação._
 
 #Atualizações 2017
-Revisar o HTML;<br>
-Inserir seção para o Transarau & Transarrada;<br>
-Definir qual o meio de fazer o deploy da landing;<br>
-Centralizar o menu e rodapé<br>
+Revisar o HTML/Bootstrap;<br>
+Editar galeria de imagens;<br>
+Centralizar o menu.<br>
 
 Prazo de conclusão 25/01/2017
